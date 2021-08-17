@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/apple.svg" type="image/x-icon">
+    <title>DietSystem</title>
+</head>
+<body>
+    <div id="root">
+        <div class="card">
+            <section>
+                <div class="box-logo"><img src="image/apple.svg" alt=""></div>
+            </section>
+            <section>
+                <div class="recover-text">
+                    <h4>Digite seu e-mail de cadastro</h4>
+                    <p>Você receberá, em seu e-mail, o link para redefinir a sua senha</p>
+                </div>
+            </section>
+            <section>
+                <div class="box-input">
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/email.svg" alt="">
+                        </div>
+                        <input type="email" placeholder="Digite seu e-mail cadastrado">
+                    </div>                    
+                </div>
+            </section>
+            <section>
+                <div class="btn-box btn-box-final">
+                    <button onclick="history.go(-1);" class="btn-gray btn-style">Voltar</button>
+                    <button id="enviarSenha" onclick="handlerNovaSenha()" class="btn-green btn-style">Enviar</button>                    
+                </div>
+            </section>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

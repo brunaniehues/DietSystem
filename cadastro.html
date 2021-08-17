@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/apple.svg" type="image/x-icon">
+    
+    <title>DietSystem</title>
+</head>
+<body>
+    <div id="root">
+        <div class="card">
+            <section>
+                <div class="box-logo"><img src="image/apple.svg" alt=""></div>
+            </section>
+            <section>
+                <div class="btn-box">
+                    <button class="btn-green btn-style">Cadastre-se</button>
+                    <button onclick="handlerLogin()" class="btn-gray btn-style">Já tenho cadastro</button>                    
+                </div>
+            </section>
+            
+            <section>
+                <div class="box-input">
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/user.svg" alt="">
+                        </div>
+                        <input type="text" placeholder="Seu nome">
+                        
+                    </div>
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/cel.svg" alt="">
+                        </div>
+                        <input type="tel" placeholder="Seu número de celular">
+                        
+                    </div>
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/email.svg" alt="">
+                        </div>
+                        <input type="email" placeholder="Seu e-mail">
+                        
+                    </div>
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/padlock.svg" alt="">
+                        </div>
+                        <input type="password" placeholder="Digite uma senha forte">
+                        <div class="icone">
+                            <img src="image/eye.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="icone">
+                            <img src="image/padlock.svg" alt="">
+                        </div>
+                        <input type="password" placeholder="Digite a senha novamente">
+                        <div class="icone">
+                            <img src="image/eye.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="checkbox">                    
+                        <input id="termos" type="checkbox" name="">
+                        <label for="termos">Declaro que li e concordo com os os <a href="#">termos de uso</a> e a <a href="#">política de privacidade</a>.</label>                    
+                    </div>
+            </section>
+            <section>
+                <div class="btn-final">
+                    <button id="loading" class="btn-green btn-style btn-end">Finalizar cadastro</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
